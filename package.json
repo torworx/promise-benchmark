@@ -30,6 +30,8 @@
     "deferred": "~0.6.5",
     "profy": "0.0.5",
     "optimist": "~0.6.0",
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "d.js": "~0.5.1",
+    "promiscuous": "~0.3.0"
   }
 }

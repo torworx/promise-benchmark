@@ -1,7 +1,8 @@
+var promiscuous = require('promiscuous');
 var well = require('well');
 
 exports.defer = function () {
-    var deferred = well.defer();
+    var deferred = promiscuous.deferred();
 
     return {
         promise: deferred.promise,
@@ -11,9 +12,7 @@ exports.defer = function () {
     };
 };
 
-exports.fulfilled = well.fulfilled;
-exports.rejected = well.rejected;
+exports.fulfilled = promiscuous.resolve;
+exports.rejected = promiscuous.reject;
 
 exports.all = well.all;
-exports.map = well.map;
-exports.reduce = well.reduce;

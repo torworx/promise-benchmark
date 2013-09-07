@@ -1,7 +1,7 @@
 var Benchmark = require('../benchmark');
 var vendors = require('../vendors');
 
-var benchmark = Benchmark('defer-reject');
+var benchmark = Benchmark('promise-reject');
 
 Object.keys(vendors).forEach(function (name) {
     benchmark.add(name, execute(vendors[name]));
