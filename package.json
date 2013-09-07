@@ -1,0 +1,35 @@
+{
+  "name": "promise-benchmark",
+  "version": "0.0.1",
+  "description": "Basic and complex performance tests for promise implementations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh ./bin/run.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taoyuan/promise-benchmark.git"
+  },
+  "keywords": [
+    "promise",
+    "benchmark",
+    "performance",
+    "test"
+  ],
+  "author": "Tao Yuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taoyuan/promise-benchmark/issues"
+  },
+  "dependencies": {
+    "benit": "*",
+    "well": "0.0.3",
+    "q": "~0.9.7",
+    "when": "~2.4.0",
+    "lodash": "~1.3.1",
+    "deferred": "~0.6.5",
+    "profy": "0.0.5",
+    "optimist": "~0.6.0",
+    "async": "~0.2.9"
+  }
+}
